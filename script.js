@@ -1,3 +1,4 @@
+/* 
 window.addEventListener('load', () => {
   const loader = document.querySelector('.loader');
   
@@ -9,6 +10,7 @@ window.addEventListener('load', () => {
     }
   })
 })
+*/
   
   
   ///////////////// REPLAYS ANIMATION WHEN BACK IN VIEWPORT /////////////////
