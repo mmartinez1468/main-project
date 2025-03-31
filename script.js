@@ -498,3 +498,12 @@ window.addEventListener('load', () => {
     }
     */
   });
+
+
+
+
+  <a href="about.html" onclick="window.open('about.html', '_self');">
+Example
+
+
+</a>
