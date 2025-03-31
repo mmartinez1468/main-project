@@ -1,13 +1,14 @@
-///////////////// PRE LOADER /////////////////
 window.addEventListener('load', () => {
-    const loader = document.querySelector('.loader');
-    
-    loader.classList.add('loaderHidden');
+  const loader = document.querySelector('.loader');
   
-    loader.addEventListener('transitioned', () => {
-      document.body.removeChild('loader');
-    })
+  loader.classList.add('loaderHidden');
+
+  loader.addEventListener('transitionend', () => {
+    if (loader.parentNode) {
+      loader.parentNode.removeChild(loader);
+    }
   })
+})
   
   
   ///////////////// REPLAYS ANIMATION WHEN BACK IN VIEWPORT /////////////////
