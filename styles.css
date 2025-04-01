@@ -724,7 +724,9 @@
       transform: rotate(360deg);
     }
   }
-  
+  .landing-content-box {
+    line-height: 2.5rem;
+  }
   /* Responsive Styles */
   @media screen and (min-width: 468px) {
     .landing-content-box > h2 {
