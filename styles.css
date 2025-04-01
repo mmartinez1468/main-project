@@ -726,11 +726,12 @@
   }
   .landing-content-box > h2 {
     line-height: 2.5rem;
+    font-size: 1.5rem;
   }
   /* Responsive Styles */
   @media screen and (min-width: 468px) {
     .landing-content-box > h2 {
-      font-size: 1.75rem;
+      font-size: 2rem;
     }
     .landing-content-box > p {
       font-size: .9rem;
